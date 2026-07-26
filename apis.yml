@@ -1,7 +1,23 @@
 aid: dexterra
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/dexterra.png
 name: Dexterra
-description: Dexterra is a company surfaced as a portfolio company of canaan-partners and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Dexterra was a mobile workforce management software startup that built a mobile application
+  platform for managing and optimizing field/mobile operations. Backed by Canaan Partners along with New
+  Enterprise Associates, Intel Capital, Motorola Solutions Venture Capital, and Mesirow Financial, the
+  company raised roughly $108M across its rounds. Dexterra was acquired by Antenna Software in June 2009
+  and no longer operates as an independent entity; it has no active developer program, public API, or
+  developer portal. This profile is retained as a Canaan Partners portfolio lead for network completeness.
 url: https://raw.githubusercontent.com/api-evangelist/dexterra/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,14 +25,28 @@ x-backed-by:
 - canaan-partners
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: acquired
+x-acquired-by: Antenna Software
+x-acquired-date: '2009-06-15'
+x-source-identity: https://www.canaan.com/companies/dexterra
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Mobile
+- Workforce Management
+- Field Service
+- Enterprise Mobility
+- Acquired
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
